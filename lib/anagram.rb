@@ -8,8 +8,9 @@ class Anagram
   
   def match(word_arr)
   single_word_arr = @word.split("").sort 
-  
-    letters = i.split("").sort
+  input_word_arr = word_arr.split("").sort
+  if single_word_arr == input_word_arr
+    TRUE
       binding.pry
     end
       
