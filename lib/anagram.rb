@@ -1,15 +1,15 @@
 # Your code goes here!
+require 'pry'
 class Anagram
   attr_accessor :word 
   def initialize(word)
     @word = word
   end
   
-  def self.match
-    word_arr = []
+  def match(word_arr)
     @word.each do |i|
-      word_arr << i.split("").sort
-      word_arr.each do |k|
+  split_word = i.split("").sort
+      binding.pry
         
       
 end
