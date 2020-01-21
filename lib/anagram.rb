@@ -10,7 +10,7 @@ class Anagram
     @word.each do |i|
   split_word = i.split("").sort
       binding.pry
-        
+    end
       
 end
   
