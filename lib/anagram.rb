@@ -8,7 +8,7 @@ class Anagram
   def self.match
     word_arr = []
     @word.each do |i|
-      word_arr << i.split("")
+      word_arr << i.split("").sort
       word_arr.each do |k|
         
       
