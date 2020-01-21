@@ -7,8 +7,9 @@ class Anagram
   end
   
   def match(word_arr)
-    @word.each do |i|
-  split_word = i.split("").sort
+  single_word = @word.split("").sort 
+  single_word.each do |i| 
+  letters = i.split("").sort
       binding.pry
     end
       
